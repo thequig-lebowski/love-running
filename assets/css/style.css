@@ -8,8 +8,6 @@
     box-sizing: border-box;
 }
 
-
-
 /* General Styles */
 body {
     min-height: 100vh;
@@ -23,6 +21,10 @@ body {
 /* Header */
 header {
     background-color: lightcoral;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Main Content */
