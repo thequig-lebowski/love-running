@@ -23,6 +23,7 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
+    /* position: fixed takes it out of normal flow of page */
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -89,6 +90,9 @@ main {
     background-color: lightblue;
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    /* push main content below header as header has "position: fixed" which takes it out of normal flow. */
+    /* I don't like that this is a hard-coded value. Return here and find a better solution. */
+    margin-top: 47px;
 }
 
 /* Footer */
