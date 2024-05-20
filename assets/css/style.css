@@ -26,6 +26,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    /*makes toggle check bock display in a row with header */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -66,6 +67,21 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
+    /* top: tells nav element to start at the bottom of it's parent (100% away from the start of the parent element) */
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main Content */
