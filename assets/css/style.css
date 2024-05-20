@@ -135,3 +135,10 @@ footer {
         margin-top: 79px;
     }
 }
+/* Large devices (laptops and bigger) */
+@media screen and (min-width: 992px) {
+    /* Clickable links */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }    
+}
