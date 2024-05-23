@@ -189,6 +189,19 @@ main {
 #times h3 {
     color: #fafafa;
 }
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    /* Adding back in a line height that was taken out in #photos
+    so that the alt text is still readable should an image fail */
+    line-height: 1em;
+}
+
+#photos {
+    /* Removes gap between images. <img> are inline elements which are treated
+    like text which has an automatic line height */
+    line-height: 0;
+}
 
 /* Footer */
 #social-networks {
