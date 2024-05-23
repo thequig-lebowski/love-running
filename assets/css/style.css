@@ -207,6 +207,35 @@ main {
     line-height: 0;
 }
 
+/* Signup Page */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#signup {
+    background: url(../images/signup-image.webp) no-repeat top center/cover;
+    padding: 20px 10px;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+h2 {
+    color: #fafafa;
+}
+
+.text-input {
+    
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
