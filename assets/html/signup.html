@@ -36,7 +36,32 @@
 
     <!-- Main Content -->
     <main>
-        Main Content
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's Get You Signed Up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="fname" id="first-name" class="text-input" required><br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="lname" id="last-name" class="text-input" required><br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" class="text-input" required><br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running-preferences" id="road" value="road" required>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running-preferences" id="trail" value="trail">
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running-preferences" id="both" value="both">
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
     </main>
     <!-- Footer -->
     <footer>
@@ -45,7 +70,8 @@
                     aria-label="Visit us on Facebook (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit us on Twitter (opens in a new tab)"><i class="fa-brands fa-square-x-twitter"></i></i></a>
+                    aria-label="Visit us on Twitter (opens in a new tab)"><i
+                        class="fa-brands fa-square-x-twitter"></i></i></a>
             </li>
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit us on Youtube (opens in a new tab)"><i class="fa-brands fa-youtube"></i></i></a>
